@@ -1,9 +1,17 @@
+//Functional Dependencies
 import React, {Component} from 'react';
-import {BrowserRouter, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
+
+// Custom Components
+import Menu from './Menu';
+
+// Content pages
 import HomePage from  './ContentPages/Home';
 import AboutPage from './ContentPages/About';
 import WorkPage from  './ContentPages/Work';
+
+// CSS
 import './App.css';
 
 /**
@@ -19,11 +27,7 @@ const routes = [
 class App extends Component{ 
   render() {
     return <BrowserRouter>
-      <>
-        <Link to='/'>Home</Link>
-        <Link to='/work'>Work</Link>
-        <Link to='/about'>About</Link>
-      </>
+      <Menu routes={routes}/>
       <Route render={({location}) => (
         <>
           {routes.map(({path, comp}, id) => (
