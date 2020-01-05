@@ -28,6 +28,7 @@ class App extends Component{
         <>
           {routes.map(({path, comp}, id) => (
             <Route key={path} exact path={path}>
+              {/* Using createElement because <comp> wont work due to lower case first letter */}
               {React.createElement(comp, {location:location, history:createBrowserHistory()})}
             </Route>
           ))}
