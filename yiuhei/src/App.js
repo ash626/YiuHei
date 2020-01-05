@@ -5,6 +5,7 @@ import {createBrowserHistory} from 'history';
 
 // Custom Components
 import Menu from './Menu';
+import Logo from './Logo';
 
 // Content pages
 import HomePage from  './ContentPages/Home';
@@ -27,7 +28,10 @@ const routes = [
 class App extends Component{ 
   render() {
     return <BrowserRouter>
-      <Menu routes={routes}/>
+      <div id='header'>
+        <Logo/>
+        <Menu routes={routes}/>
+      </div>
       <Route render={({location}) => (
         <>
           {routes.map(({path, comp}, id) => (

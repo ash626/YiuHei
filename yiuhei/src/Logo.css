@@ -1,0 +1,10 @@
+#logo-wrapper{
+  padding: 50px 0px 0px 50px;
+  flex: 1;
+}
+
+#placeholder{
+  height: 110px;
+  width: 91.25px;
+  background-color: blueviolet;
+}
