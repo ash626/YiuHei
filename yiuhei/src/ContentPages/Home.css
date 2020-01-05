@@ -1,0 +1,32 @@
+#home-wrapper{
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+#home-content{
+
+  flex-direction: row;
+  display: inline-flex;
+
+}
+
+#home-placeholder{
+  width: 440px;
+  height: 500px;
+  background-color: blueviolet;
+  margin: 0 17px;
+  flex-shrink: 0;
+}
+
+#home-textbox{
+  display: initial;
+  max-width: 25vw;
+  padding: 0 17px 17px;
+  color: rgba(0,0,0,.5);
+  font-family: IM Fell English;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 2.5px;
+}
