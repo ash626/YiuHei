@@ -1,14 +1,14 @@
 import './Logo.css'
 import {Link} from 'react-router-dom';
 import React from 'react';
+import LogoImg from './assets/landing_page/website_logo.png';
 
 const Logo = () => {
   
   return (
     <div id='logo-wrapper'>
       <Link to="/">
-        {/* TODO: replace placeholder div with actual asset */}
-        <div id='placeholder'></div>
+        <img id='logo' src={LogoImg}/>
       </Link>
     </div>
   )

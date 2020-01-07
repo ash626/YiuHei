@@ -12,6 +12,8 @@ import HomePage from  './ContentPages/Home';
 import AboutPage from './ContentPages/About';
 import WorkPage from  './ContentPages/Work';
 
+//
+
 // CSS
 import './App.css';
 
@@ -30,6 +32,7 @@ class App extends Component{
     return <BrowserRouter>
       <div id='header'>
         <Logo/>
+        <div id='whitespace'></div>
         <Menu routes={routes}/>
       </div>
       <Route render={({location}) => (
