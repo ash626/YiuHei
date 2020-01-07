@@ -10,11 +10,10 @@
 
 }
 
-#home-placeholder{
-  width: 440px;
+#home-cover-wrapper{
+  width: 460px;
   height: 500px;
-  background-color: blueviolet;
-  margin: 0 17px;
+  margin: 0 1em;
   flex-shrink: 0;
 }
 
@@ -29,4 +28,9 @@
   font-size: 15px;
   line-height: 1.5em;
   letter-spacing: 2.5px;
+}
+
+#cover-img{
+  height:100%;
+  width: 100%;
 }

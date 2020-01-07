@@ -1,12 +1,16 @@
 import React, { Component }  from 'react';
 import './Home.css';
+import HomeCoverImg from '../assets/landing_page/cover_image.jpg';
+
 
 class Home extends Component{
   render() {
     return (
       <div id='home-wrapper'>
         <div id='home-content'>
-          <div id='home-placeholder'/>
+          <div id='home-cover-wrapper'>
+            <img id='cover-img' src={HomeCoverImg}/>
+          </div>
           <div id='home-textbox'>
             There is always a story.
 
