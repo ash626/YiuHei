@@ -20,9 +20,9 @@ import './App.css';
  * linkes to the route are displayed on the menu in the top right corner if the onMenu boolean is true.
  */
 const routes = [
-  {path: '/',       name: 'Home',   onMenu: true, comp: HomePage},
-  {path: '/work',   name: 'Work',   onMenu: true, comp: WorkPage},
-  {path: '/about',  name: 'About',  onMenu: true, comp: AboutPage}
+  {path: '/',       name: 'Home',   onMenu: true, exact: true,  comp: HomePage},
+  {path: '/work',   name: 'Work',   onMenu: true, exact: false, comp: WorkPage},
+  {path: '/about',  name: 'About',  onMenu: true, exact: true,  comp: AboutPage}
 ]
 
 class App extends Component{ 
@@ -34,8 +34,8 @@ class App extends Component{
       </div>
       <Route render={({location}) => (
         <>
-          {routes.map(({path, comp}, id) => (
-            <Route key={path} exact path={path}>
+          {routes.map(({path, comp, exact}, id) => (
+            <Route key={path} exact={exact} path={path}>
               {/* Using createElement because <comp> wont work due to lower case first letter */}
               {React.createElement(comp, {location:location, history:createBrowserHistory()})}
             </Route>

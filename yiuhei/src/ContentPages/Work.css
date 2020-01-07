@@ -1,0 +1,30 @@
+#work-wrapper{
+  margin: 100px auto;
+  width: 1200px;
+}
+
+#work-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  margin: auto;
+}
+
+.divider{
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.work-list{
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+}
+
+.work-item{
+  padding-top: 100%;
+  background-color: blue;
+  flex: 1;
+}
