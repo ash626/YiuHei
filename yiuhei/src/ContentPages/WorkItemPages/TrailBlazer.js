@@ -1,9 +1,10 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 
-class TrailBlazer extends Component{
-  render(){
-    return <>TrailBlazer</>
-  }
-}
+const TrailBlazer = () => {
+  return (
+    <>TrailBlazer</>
+  )
+};
+
 
 export default TrailBlazer;

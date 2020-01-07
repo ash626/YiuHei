@@ -1,9 +1,9 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 
-class IMissYou extends Component{
-  render(){
-    return <>IMissYou</>
-  }
-}
+const IMissYou = () => {
+  return (
+    <>I Miss You</>
+  )
+};
 
 export default IMissYou;

@@ -6,13 +6,13 @@ class WorkList extends Component{
     return (
       <div className='work-list'>
         <div className='title-wrapper'>
-          <span className='title'>{this.props.workItemList.title}</span>
+          {this.props.workItemList.title}
         </div>
         <div className='divider'/>
         {this.props.workItemList.workItems.map(({image, name, path}, id) => (
           <Link to={'/work' + path}>
             <div className='work-item'>
-              <span className='work-name'>{name}</span>
+              <span className='name'>{name}</span>
               {/*<img src={image}/>*/}
             </div>
           </Link>

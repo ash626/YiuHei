@@ -1,6 +1,7 @@
 #work-wrapper{
-  margin: 100px auto;
-  width: 1200px;
+  margin: 3em auto;
+  max-width: 1200px;
+  width: 95%;
 }
 
 #work-content{
@@ -12,19 +13,32 @@
   margin: auto;
 }
 
-.divider{
-  border-bottom-width: 1px;
-  border-bottom-color: black;
-}
-
 .work-list{
   max-width: 400px;
   width: 100%;
-  padding: 15px;
+  padding: 2em;
 }
 
 .work-item{
+  margin: 2em 0;
   padding-top: 100%;
   background-color: blue;
   flex: 1;
+  position: relative;
+}
+
+.work-item .name{
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.work-list .title-wrapper {
+  text-align: center;
+  padding: 1em;
+}
+
+.work-list .divider{
+  margin: 2em 0;
 }

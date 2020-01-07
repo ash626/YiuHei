@@ -1,9 +1,10 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 
-class RawSatchel extends Component{
-  render(){
-    return <>Raw Satchel</>
-  }
-}
+const RawSatchel = () => {
+  return (
+    <>Raw Satchel</>
+  )
+};
+
 
 export default RawSatchel;

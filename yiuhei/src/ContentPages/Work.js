@@ -2,13 +2,22 @@ import React, { Component }  from 'react';
 import {Route} from 'react-router-dom';
 import './Work.css';
 import WorkList from './WorkList';
+
+// Work Page imports
 import RawSatchel from './WorkItemPages/RawSatchel';
 import TrailBlazer from './WorkItemPages/TrailBlazer';
 import IMissYou from './WorkItemPages/IMissYou';
+import AdaptiveRig from './WorkItemPages/AdaptiveRig';
+import PatchPocketShirt from './WorkItemPages/PatchPocketShirt';
+import FieldJacketSling from './WorkItemPages/FieldJacketSling';
+
 var workItemsLists=[
   { title: 'Clothing',
     workItems: [
-      {name: 'RawSatchel', path: '/RawSatchel', comp: RawSatchel},
+      {name: 'RawSatchel',        path: '/RawSatchel',        comp: RawSatchel},
+      {name: 'PatchPocketShirt',  path: '/PatchPocketShirt',  comp: PatchPocketShirt},
+      {name: 'FieldJacketSling',  path: '/FieldJacketSling',  comp: FieldJacketSling},
+      {name: 'AdaptiveRig',       path: '/AdaptiveRig',       comp: AdaptiveRig},
     ]},
   
   { title: 'Videography',
