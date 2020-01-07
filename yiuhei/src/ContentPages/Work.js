@@ -11,23 +11,33 @@ import AdaptiveRig from './WorkItemPages/AdaptiveRig';
 import PatchPocketShirt from './WorkItemPages/PatchPocketShirt';
 import FieldJacketSling from './WorkItemPages/FieldJacketSling';
 
+// Work Image imports
+import RawSatchelImg from '../assets/clothing/raw_satchel/nav_tile.jpg';
+import TrailBlazerImg from '../assets/video/trailblazer/nav_tile.jpg';
+import IMissYouImg from '../assets/art/i_miss_you/nav_tile.jpg';
+import AdaptiveRigImg from '../assets/clothing/adaptive_rig/nav_tile.jpg';
+import PatchPocketShirtImg from '../assets/clothing/patch_pocket_shirt/nav_tile.jpg';
+import FieldJacketSlingImg from '../assets/clothing/field_jacket_sling/nav_tile.jpg';
+
+
+
 var workItemsLists=[
   { title: 'Clothing',
     workItems: [
-      {name: 'RawSatchel',        path: '/RawSatchel',        comp: RawSatchel},
-      {name: 'PatchPocketShirt',  path: '/PatchPocketShirt',  comp: PatchPocketShirt},
-      {name: 'FieldJacketSling',  path: '/FieldJacketSling',  comp: FieldJacketSling},
-      {name: 'AdaptiveRig',       path: '/AdaptiveRig',       comp: AdaptiveRig},
+      {name: 'Raw Satchel',        path: '/RawSatchel',        image: RawSatchelImg,   comp: RawSatchel},
+      {name: 'Patch Pocket Shirt',  path: '/PatchPocketShirt',  image: PatchPocketShirtImg,   comp: PatchPocketShirt},
+      {name: 'Field Jacket Sling',  path: '/FieldJacketSling',  image: FieldJacketSlingImg,   comp: FieldJacketSling},
+      {name: 'Adaptive Rig',       path: '/AdaptiveRig',       image: AdaptiveRigImg,   comp: AdaptiveRig},
     ]},
   
   { title: 'Videography',
     workItems: [
-      {name: 'TrailBlazer', path: '/TrailBlazer', comp: TrailBlazer},
+      {name: 'TrailBlazer', path: '/TrailBlazer', image: TrailBlazerImg,   comp: TrailBlazer},
     ]},
   
   { title: 'Art',
     workItems: [
-      {name: 'I Miss You', path: '/imissyou', comp: IMissYou},
+      {name: 'I Miss You', path: '/imissyou', image: IMissYouImg,   comp: IMissYou},
     ]}
   ]
 

@@ -13,7 +13,7 @@ class WorkList extends Component{
           <Link to={'/work' + path}>
             <div className='work-item'>
               <span className='name'>{name}</span>
-              {/*<img src={image}/>*/}
+              <img className='nav-tile'src={image}/>
             </div>
           </Link>
         ))}
