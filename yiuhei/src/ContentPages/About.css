@@ -1,0 +1,28 @@
+#about-wrapper{
+  margin: 100px auto;
+  max-width: 1200px;
+  width: 100%
+}
+
+#about-content{
+  width: 100%;
+  flex-direction: row;
+  display: inline-flex;
+}
+
+#about-cover-wrapper{
+  width: 460px;
+  height: 500px;
+  margin: 0 1em;
+  flex-shrink: 0;
+}
+
+#about-textbox{
+  display: initial;
+  padding: 0 17px 17px;
+  flex: 1;
+}
+
+#whitespace{
+  width: 100%
+}
