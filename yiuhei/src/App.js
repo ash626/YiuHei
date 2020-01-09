@@ -12,10 +12,12 @@ import HomePage from  './ContentPages/Home';
 import AboutPage from './ContentPages/About';
 import WorkPage from  './ContentPages/Work';
 
-//
-
 // CSS
 import './App.css';
+
+// Firebase
+import { firebaseConfig } from './Config.js';
+var firebase = require("firebase/app");
 
 /**
  * Routes is an array of components accessable by the router.
@@ -26,6 +28,8 @@ const routes = [
   {path: '/work',   name: 'Work',   onMenu: true, exact: false, comp: WorkPage},
   {path: '/about',  name: 'About',  onMenu: true, exact: true,  comp: AboutPage}
 ]
+
+firebase.initializeApp(firebaseConfig);
 
 class App extends Component{ 
   render() {

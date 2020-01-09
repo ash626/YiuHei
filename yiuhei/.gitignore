@@ -21,5 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+firebase-debug.log*
 
+/src/Config.js
 /src/Assets/video/trailblazer/trailblazer.mp4
+
+/public/index.html
