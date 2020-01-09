@@ -14,7 +14,8 @@ const TrailBlazer = () => {
   return (
     <div className="work-page-wrapper">
     <div className="content">
-    <div class='embed-container'><iframe src='https://player.vimeo.com/video/303411565' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>  
+    <div class='embed-container'>
+      <iframe title='TrailBlazer' src='https://player.vimeo.com/video/303411565' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>  
       <p className='title'>TrailBlazer</p>
         <span>A Short Film on mediumrare and the Art of Chasing Dreams</span>
       
