@@ -86,3 +86,8 @@
 .credits{
   margin-bottom: 5em;
 }
+
+.awssld{
+  --slider-height-percentage: 100% !important;
+  height: 100%;
+}
