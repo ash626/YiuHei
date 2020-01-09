@@ -57,7 +57,7 @@ const PatchPocketShirt = () => {
         </Grid>
         <Grid item xs={6}>
         <>
-          <AwesomeSlider>
+          <AwesomeSlider bullets={false}>
             <div data-src={Img3a}/>
             <div data-src={Img3b}/>
             <div data-src={Img3c}/>  
@@ -77,7 +77,7 @@ const PatchPocketShirt = () => {
         </Grid>
         <Grid item xs={6}>
         <>
-          <AwesomeSlider>
+          <AwesomeSlider bullets={false}>
             <div data-src={Img4a}/>
             <div data-src={Img4b}/>
           </AwesomeSlider>

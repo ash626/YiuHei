@@ -75,7 +75,7 @@ const FieldJacketSling = () => {
           <img className="grid-img" alt='A Familiar Fulfillment 1' src={Img4}/>
         </Grid>
         <Grid item xs={12}>
-          <AwesomeSlider>
+          <AwesomeSlider bullets={false}>
           <div data-src={Img5a}/>
             <div data-src={Img5b}/>
           </AwesomeSlider>
