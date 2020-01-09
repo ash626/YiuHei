@@ -1,6 +1,5 @@
 import React  from 'react';
 import Grid from '@material-ui/core/Grid';
-import AwesomeSlider from 'react-awesome-slider';
 
 // Image imports
 import Banner from '../../assets/clothing/adaptive_rig/banner.jpg';
