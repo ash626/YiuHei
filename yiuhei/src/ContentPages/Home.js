@@ -9,7 +9,7 @@ class Home extends Component{
       <div id='home-wrapper'>
         <div id='home-content'>
           <div id='home-cover-wrapper'>
-            <img id='cover-img' src={HomeCoverImg}/>
+            <img id='cover-img' alt='Cover' src={HomeCoverImg}/>
           </div>
           <div id='home-textbox'>
             There is always a story.
