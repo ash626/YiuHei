@@ -49,3 +49,40 @@
 .work-list .divider{
   margin: 2em 0;
 }
+
+.work-page-wrapper{
+  max-width: 1000px;
+  width: 100%;
+  margin:5em auto 0;
+}
+
+.content{
+  flex-direction: row;
+}
+
+.banner{
+  width: 100%;
+}
+
+.MuiGrid-item{
+  flex-grow: 1;
+}
+
+.grid-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title{
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.work-page-wrapper .divider{
+  margin: 3em 0;
+}
+
+.credits{
+  margin-bottom: 5em;
+}
