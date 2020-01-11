@@ -29,7 +29,7 @@ const FieldJacketSling = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>A Standstill</strong></p>
           <p>Early this year, Silv offered me a beautiful knit sweater that he wasn&rsquo;t wearing.&nbsp; He told me to name my price, I told him I didn&rsquo;t have much money, so he asked me to make him something instead.&nbsp;</p>
           <p>I asked Silv what he wanted.</p>
@@ -39,7 +39,7 @@ const FieldJacketSling = () => {
           <p>She knew that we felt a desire to create things.&nbsp; <br />She knew that we were at a standstill with our creative work.&nbsp;</p>
           <p>We had personal reasons, we made excuses, we justified the lack of action, motivation, and inspiration&hellip; but she passionately urged us to achieve more in that aspect of our lives.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='A Standstill' src={Img2}/>
         </Grid>
       </Grid>
@@ -47,7 +47,7 @@ const FieldJacketSling = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>A Timid Recovery</strong></p>
           <p>The gift took a while to make.&nbsp; I found it difficult at the time to focus on anything personal.&nbsp; The materials were ready, the idea existed in my head, but I didn&rsquo;t have the motivation to sew.&nbsp;</p>
           <p>It took a while to find the confidence and inspiration to sew again.&nbsp; It also took a lot of effort forcing myself to take on a project that was to be given to a friend.&nbsp;&nbsp;</p>
@@ -56,7 +56,7 @@ const FieldJacketSling = () => {
           <p>I began to cut the materials.&nbsp; <br />I did it slowly with hesitation, out of fear for all the above.</p>
           <p>I was afraid to rush it.&nbsp;</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='A Timid Recovery 1' src={Img3}/>
         </Grid>
       </Grid>
@@ -64,14 +64,14 @@ const FieldJacketSling = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>A Familiar Fulfillment </strong></p>
           <p>The result was something I felt rather proud of.&nbsp; It was a product of thought and care, even if the thought and care was rooted in self doubt.&nbsp; It felt different from the things I&rsquo;d slap together for myself, it felt like something I&rsquo;d be happy to present to someone else.</p>
           <p>About five months after making our deal, I delivered the bag to Silv.&nbsp;</p>
           <p>I felt a sense of comfort when I saw the smile on his face.</p>
           <p>He geeked out over it for a bit, and it brought me joy.&nbsp; His reaction was a reminder of why I want to do what I do; I want to make things that can bring happiness to others. His reaction also reminded me that even self doubt can lead to great things, and that everything we do should be done with thought and care.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='A Familiar Fulfillment 1' src={Img4}/>
         </Grid>
         <Grid item xs={12}>
@@ -85,18 +85,18 @@ const FieldJacketSling = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>The Sling</strong></p>
           <p>Silv works a day job at a designer consignment store, and takes on work on the side as a model, creative director, film director, stylist, clothing designer, and consultant.&nbsp; He has a knack for breathing new life and excitement into everything he touches. I thought it fitting to make him a bag that he could use throughout his adventures. I thought it fitting to make it out of something I owned.&nbsp;&nbsp;</p>
           <p>The source material came from a thrifted M-65ish Jacket (not quite the classic silhouette). I bought it on a whim due to its near mint condition, but it sadly didn&rsquo;t fit me, it was way too tight in the shoulders.&nbsp; It saw maybe one or two wears before it sat in my closet, collecting close to three years worth of dust.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 1' src={Img6}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 2' src={Img7}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 3' src={Img8}/>
         </Grid>
         <Grid item xs={12}>
@@ -104,16 +104,16 @@ const FieldJacketSling = () => {
           <p>The entry is a roll top, secured with a Velcro strap on each side.&nbsp; One of the Velcro straps sticks onto an original patch strip above the chest pocket.&nbsp; D-rings were sewn on to the Velcro straps for ease of operation (pull to detach) and an attachment point for keychains.&nbsp;</p>
           <p>The strap itself is woven from olive coloured 550 paracord.&nbsp; The strap was once used as a camera strap.&nbsp;&nbsp;</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 4' src={Img9}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 5' src={Img10}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 6' src={Img11}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Sling 7' src={Img12}/>
         </Grid>
       </Grid>

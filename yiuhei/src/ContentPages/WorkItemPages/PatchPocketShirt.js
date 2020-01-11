@@ -28,7 +28,7 @@ const PatchPocketShirt = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>Humbling Growth</strong></p>
           <p>There&rsquo;s a certain invincibility that comes with youth.&nbsp; When you&rsquo;re a child you think that you&rsquo;re perfect, you&rsquo;re great, you&rsquo;re smart, you can&rsquo;t be stopped.&nbsp; It doesn&rsquo;t last for long, by the time you&rsquo;re in middle school you&rsquo;re grasping the concepts of right and wrong.&nbsp; You slowly grow accustomed to questioning yourself, whether what you&rsquo;re doing is wrong or right, bad or good - you develop a conscience.&nbsp;&nbsp;</p>
           <p>As a toddler the idea of &ldquo;average&rdquo; doesn&rsquo;t register.&nbsp;&nbsp;</p>
@@ -37,7 +37,7 @@ const PatchPocketShirt = () => {
           <p>Some grow up and better themselves with ease, some struggle with it for a while.&nbsp; I&rsquo;m very much the latter. I&rsquo;m naturally predisposed to focusing on my flaws, feeling like a burden, mulling over every mistake.&nbsp; In my highs, I&rsquo;m soaring. Overconfident, outgoing, unstoppable. In my lows I&rsquo;m the complete opposite.&nbsp;&nbsp;</p>
           <p>At 26, I see the need to strike a balance.&nbsp; Polar highs and lows are who I am, I don&rsquo;t seek to change that, I want to learn to live with it in a way that results in a general rise.&nbsp; I want to grow into a Me that does more good, hurts himself less, and does less harm to others.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='Humbling Growth' src={Img2}/>
         </Grid>
       </Grid>
@@ -45,7 +45,7 @@ const PatchPocketShirt = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>Acceptance</strong></p>
           <p>I made these shorts to fit my odd body.&nbsp;&nbsp;</p>
           <p>As a kid, the concept of body image never registered.&nbsp; I didn&rsquo;t know I was overweight, taller than most children, or that my ears were big.&nbsp;</p>
@@ -55,7 +55,7 @@ const PatchPocketShirt = () => {
           <p>I&rsquo;m more akin to the Corbusian man than the Vitruvian man.&nbsp;&nbsp;</p>
           <p>These shorts are wide at the waist to fit over my hips.&nbsp; Cotton ties cinch them at the side to fit my waist and keep the front clean.&nbsp; They&rsquo;re loose to slim down my calves. They work with the traits of my body, accepting even the ones deemed difficult and negative.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
         <>
           <AwesomeSlider bullets={false}>
             <div data-src={Img3a}/>
@@ -69,13 +69,13 @@ const PatchPocketShirt = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>The Good in the Bad</strong></p>
           <p>Waste is a product of any project.&nbsp; The piles of scraps and off-cuts that form in my room as I sew grew to be a concern.&nbsp; Excess bits of fabric would gather in boxes that sat in my closet, and my lack of mindfulness would result in those boxes being thrown out when it came time to clean.&nbsp;&nbsp;</p>
           <p>In an effort to reduce the amount of waste produced in this project, scrap material produced from cutting the main panels were sewn together to form monochromatic patchwork patch pockets.&nbsp;</p>
           <p>It was time consuming, it took more effort than it should to create patch pockets.&nbsp; Though it was much more rewarding to work with the necessary drawbacks of sewing and turn it into something unique and essential to the garment.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
         <>
           <AwesomeSlider bullets={false}>
             <div data-src={Img4a}/>
@@ -88,25 +88,25 @@ const PatchPocketShirt = () => {
       <div className='divider'/>
 
       <Grid container spacing={3}>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <p><strong>The Shorts</strong></p>
           <p>A light cotton gabardine was chosen to provide a refined finish while maintaining next-to-skin comfort and breathability.&nbsp; Given that gabardine doesn&rsquo;t stretch, the opening was cut for a 32 inch waist so as to fit over my wide hips.&nbsp;&nbsp;</p>
           <p>Soft cotton webbing ties were attached to the sides to cinch the short down to fit a 30 inch waist.&nbsp; The ties were placed at the side to prevent the extreme cinch from bunching up the front and back faces of the short.&nbsp;&nbsp;</p>
           <p>A drop crotch fit allows the short to be worn at different heights, accommodating various styles and garments.</p>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Shorts 5' src={Img5}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Shorts 1' src={Img6}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Shorts 2' src={Img7}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Shorts 3' src={Img8}/>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} sm={6}>
           <img className="grid-img" alt='The Shorts 4' src={Img9}/>
         </Grid>
       </Grid>

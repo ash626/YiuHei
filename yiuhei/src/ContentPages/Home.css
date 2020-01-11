@@ -4,11 +4,10 @@
 }
 
 #home-content{
-
   flex-direction: row;
   display: inline-flex;
-
 }
+
 
 #home-cover-wrapper{
   width: 480px;
@@ -26,4 +25,19 @@
 #cover-img{
   height:100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 40rem){
+  #home-content{
+    flex-direction: column;
+    width: 100%;
+  }
+  #home-cover-wrapper{
+    margin: 0 auto;
+  }
+  #home-textbox{
+    padding-top: 2rem;
+    max-width: 75%;
+    margin: 0 auto;
+  }
 }
