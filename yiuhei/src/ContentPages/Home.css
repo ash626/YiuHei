@@ -27,7 +27,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 40rem){
+@media only screen and (max-width: 60rem){
   #home-content{
     flex-direction: column;
     width: 100%;

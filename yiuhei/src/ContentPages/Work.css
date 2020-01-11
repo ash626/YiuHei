@@ -106,3 +106,15 @@
   width: 100%; 
   height: 100%; 
 }
+
+@media only screen and (max-width: 60rem){
+  #work-content{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .work-list{
+    margin: 0 auto;
+  }
+
+}
