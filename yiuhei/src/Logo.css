@@ -1,6 +1,7 @@
 #logo-wrapper{
-  padding-top: 50px;
-  padding-left: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
   height: 110px;
   width: 91.25px;
 }
@@ -8,4 +9,5 @@
 #logo{
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
