@@ -5,6 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import {Link} from 'react-router-dom';
 import MenuIcon from '@material-ui/icons/Menu';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 class MenuDrawer extends Component {
   constructor(props){
@@ -36,6 +37,12 @@ class MenuDrawer extends Component {
           </ListItem>
         ))}
       </List>
+      <ListItem>
+        <a href='http://instagram.com/yiu.hei'>
+          <InstagramIcon id="instagram-icon"/>
+        </a>
+      </ListItem>
+
     </div>
   );
 
