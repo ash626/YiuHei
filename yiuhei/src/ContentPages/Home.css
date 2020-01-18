@@ -10,7 +10,8 @@
 
 
 #home-cover-wrapper{
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   height: 500px;
   margin: 0 1em;
   flex-shrink: 0;
