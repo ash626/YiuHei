@@ -2,10 +2,25 @@
   float: right;
   padding: 50px 50px 0px 0px;
 }
+#menu-thin{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  #menu-full {
+    float: right;
+    padding: 50px 50px 0px 0px;
+    display: none;
+  }
+  #menu-thin{
+    display: initial;
+  }
+}
 
 .menu-item{
   font-family: Arial,verdana,sans-serif;
   margin-left: 20px;
+  margin-top: 20px;
   font-family: "Crimson Text";
   font-size: 1em;
   font-weight: 400;
